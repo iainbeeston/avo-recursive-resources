@@ -72,3 +72,5 @@ group :test do
 end
 
 gem "awesome_nested_set", "~> 3.5"
+
+gem "avo", "~> 2.15"
