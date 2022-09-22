@@ -1,24 +1,12 @@
-# README
+This repository tries to illustrate an issue in [avo](https://github.com/avo-hq/avo) where you can't have recursive resources.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# INSTRUCTIONS
 
-Things you may want to cover:
+1. `bundle install`
+2. `bin/rails db:setup`
+3. `bin/rails s`
+4. http://localhost:3000/admin
+5. View "Grandpa"
+6. Try to view or edit the "Dad" child
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Every time you end up viewing/editing "Grandpa" again.
