@@ -1,3 +1,26 @@
+GIT
+  remote: https://github.com/avo-hq/avo.git
+  revision: 2cc9ec6190f20ace48ee9647251c19972a1bfd9b
+  specs:
+    avo (2.16.0)
+      active_link_to
+      addressable
+      breadcrumbs_on_rails
+      chartkick
+      countries
+      docile
+      dry-initializer
+      hotwire-rails
+      httparty
+      image_processing
+      inline_svg
+      meta-tags
+      pagy
+      pundit
+      rails (>= 6.0)
+      view_component (= 2.60)
+      zeitwerk
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -71,24 +94,6 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
-    avo (2.15.3)
-      active_link_to
-      addressable
-      breadcrumbs_on_rails
-      chartkick
-      countries
-      docile
-      dry-initializer
-      hotwire-rails
-      httparty
-      image_processing
-      inline_svg
-      meta-tags
-      pagy
-      pundit
-      rails (>= 6.0)
-      view_component (= 2.60)
-      zeitwerk
     awesome_nested_set (3.5.0)
       activerecord (>= 4.0.0, < 7.1)
     bindex (0.8.1)
@@ -276,7 +281,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
-  avo (~> 2.15)
+  avo!
   awesome_nested_set (~> 3.5)
   bootsnap
   capybara
